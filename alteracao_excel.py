@@ -44,6 +44,6 @@ class Command(BaseCommand):
             except ModelTeste1.DoesNotExist:
                 self.stdout.write(self.style.ERROR(f'ModelTeste1 {numero} não encontrado.'))
             except ModelTeste2.DoesNotExist:
-                self.stdout.write(self.style.ERROR(f'ModelTeste2 para o caso {numero} não encontrado.'))
+                self.stdout.write(self.style.ERROR(f'ModelTeste2 para o Modelteste1 {numero} não encontrado.'))
  
         print("Fim da alteração em lote")
