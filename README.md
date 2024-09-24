@@ -14,7 +14,7 @@ Este commit adiciona um comando que permite a atualização de informações em 
 ### Instruções:
 Para executar o comando, coloque o arquivo `alteracao_excel.xlsx` na pasta `excel` dentro do diretório de comandos e rode:
 
-python manage.py <nome_do_comando> (nesse caso python manage.py alteracao)
+python manage.py <nome_do_comando>
 
 Instações necessárias pip install pandas openpyxl
 
