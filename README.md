@@ -1,6 +1,6 @@
 Este commit adiciona um comando que permite a atualização de informações em lote diretamente coisa simples e que pode ser muito melhorada claro de um arquivo Excel. O arquivo Excel deve estar localizado na subpasta 'excel' e conter as seguintes colunas pegando pelo exemplo que foi feito no command:
 
-- 'Numero' (para identificar registros na tabela ModelTeste1)
+- 'Numero' (para identificar registros na tabela ModelTeste1, como um campo de valor único)
 - 'Observação' (para atualizar o campo 'obs' da tabela ModelTeste1)
 - 'Valor' (para atualizar o campo 'valor' da tabela ModelTeste2, relacionada a ModelTeste1)
 
@@ -18,4 +18,4 @@ python manage.py <nome_do_comando> (nesse caso python manage.py alteracao)
 
 Instações necessárias pip install pandas openpyxl
 
-E claaro, ter o Python instalado.
+E claro, ter o Python instalado.
